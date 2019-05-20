@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{{ range . }}
+    <li>{{ . }}</li>
+{{ else }}
+    <li> Noting to show</li>
+{{ end }}
+</body>
+</html>
